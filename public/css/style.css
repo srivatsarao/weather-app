@@ -1,0 +1,48 @@
+.weather{
+    font-size: 1.5em;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+.weather-img{
+    width: 20%;
+    float: left;
+}
+
+.res-absent{
+    margin: 0 auto; 
+    padding: 10px; 
+    text-align: center; 
+    display:none;
+}
+
+.weather-results{
+    display: none;
+    width: 56%;
+    margin: 0 auto;
+}
+
+.lbl-helper{
+    color:#cccccc
+}
+
+.form-group{
+    width: 70%;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px){
+    .res-present > * {
+        width: 100%;
+    }
+    .weather-results{
+        width: 100%;
+    }
+}
