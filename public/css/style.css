@@ -41,6 +41,7 @@
 @media only screen and (max-width: 500px){
     .res-present > * {
         width: 100%;
+        font-size: 1.4em;
     }
     .weather-results{
         width: 100%;
